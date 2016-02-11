@@ -25,7 +25,7 @@ import com.firebase.client.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
 
-  final static  String reference = "https://blazing-inferno-4657.firebaseio.com/todoItems";
+  final static  String reference = "YOUR-FIREBASE_APP.firebaseIO.com ";
     String userID;
     Firebase firebase_reference;
     EditText  mEditTextNote;
